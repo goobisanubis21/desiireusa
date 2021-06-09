@@ -5,7 +5,7 @@ import Photo from "./1.png";
 
 function HomeComp() {
     return (
-        <div>
+        <div className="gerardMain">
             <div className="gerard">
                 <img className="gerardPic" src={Photo} alt="gerard"></img>
             </div>
