@@ -39,7 +39,13 @@
 
 @media screen and (max-width: 950px) {
     .inputs {
-        box-shadow: 0 0 1px 1px rgb(161, 161, 161);
-        border: gray;
+        /* box-shadow: 0 0 1px 1px rgb(161, 161, 161);
+        border: gray; */
+    }
+    .btnBorder {
+        border: 1px solid rgb(148, 148, 148);
+        width: 254px;
+        height: 32px;
+        margin: 0 auto;
     }
 }

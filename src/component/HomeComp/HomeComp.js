@@ -11,8 +11,10 @@ function HomeComp() {
             </div>
             <div className="inputDiv">
                 <form>
-                    <input id="email" className="inputs" name="email" type="email"></input>
-                    <button id="sendEmailBtn" className="contactBtn" type="submit">s u b m i t</button>
+                    <div className="btnBorder">
+                        <input id="email" className="inputs" name="email" type="email"></input>
+                    </div>
+                        <button id="sendEmailBtn" className="contactBtn" type="submit">s u b m i t</button>
                 </form>
             </div>
         </div>
