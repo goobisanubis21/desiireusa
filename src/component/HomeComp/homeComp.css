@@ -43,9 +43,11 @@
         border: gray; */
     }
     .btnBorder {
-        border: 1px solid rgb(148, 148, 148);
+        /* border: 2px solid rgb(148, 148, 148); */
+        border: none;
         width: 254px;
         height: 32px;
         margin: 0 auto;
+        box-shadow: 0 0 1px 1px rgb(161, 161, 161);
     }
 }
